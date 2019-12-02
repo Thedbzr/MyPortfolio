@@ -1,3 +1,10 @@
 section.todo {
     padding-top: .5em;
 }
+
+.techicons i{
+    font-size: xx-large;
+}
+section.frameworks{
+    padding-bottom: .5em;
+}
