@@ -317,8 +317,9 @@ footer {
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: white;
+  transform: scale(1.5);
 }
-.facebook {
+.emailaddress{
   background: #f8f9fa;
   color: black;
 }
@@ -337,6 +338,15 @@ footer {
 #projectBtn{
   background-color: #f8f9fa;
 }
+#projectBtn:hover{
+  background-color: #f2f3f563;
+}
 html{
   scroll-behavior: smooth;
+}
+#email a{
+  color: #161616;
+}
+#email a:hover{
+  color: #dcccc3;
 }
