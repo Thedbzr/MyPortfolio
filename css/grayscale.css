@@ -6,14 +6,14 @@
 
  #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #00000094;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #dcccc3;
-  border: 1px solid #dcccc3;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -30,6 +30,13 @@
   color: fade(white, 80%);
   outline: none;
   background-color: transparent;
+}
+#navbarResponsive a{
+  color: white;
+}
+
+#navbarResponsive ul{
+  padding-top: .5rem;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -349,4 +356,10 @@ html{
 }
 #email a:hover{
   color: #dcccc3;
+}
+
+@media (max-width: 992px){
+  div.icon-bar{
+    display: none;
+  }
 }
