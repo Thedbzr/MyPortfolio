@@ -5,3 +5,6 @@ div.techicons{
     padding-top: .1rem;
     font-size: xx-large;
 }
+div.techicons i{
+    font-size: xx-large;
+}
