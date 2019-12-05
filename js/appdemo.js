@@ -1,15 +1,8 @@
 function showDemo() {
     var x = document.getElementById("demoDiv");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
+    if (x.style.display === "none") {
       x.style.display = "block";
+    } else {
+      x.style.display = "none";
     }
   }
-  //use .one to ensure this only happens once
-  $("#playvideo").one(function () {
-    //as noted in addendum, check for querystring exitence
-    var symbol = $("#video1")[0].src.indexOf("?") > -1 ? "&" : "?";
-    //modify source to autoplay and start video
-    $("#video1")[0].src += symbol + "autoplay=1";
-  });
